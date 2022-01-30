@@ -20,7 +20,6 @@ class UploadViewController: UIViewController,UIImagePickerControllerDelegate,UIN
         imageView.isUserInteractionEnabled = true
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(chooseImage))
         imageView.addGestureRecognizer(gestureRecognizer)
-        imageView.
     }
     
     @objc func chooseImage(){
