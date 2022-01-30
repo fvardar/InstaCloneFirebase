@@ -3,7 +3,7 @@
 //  InstaCloneFirebase
 //
 //  Created by Furkan Vardar on 27.12.2021.
-//
+//  Updated
 
 import UIKit
 import Firebase
@@ -20,6 +20,7 @@ class UploadViewController: UIViewController,UIImagePickerControllerDelegate,UIN
         imageView.isUserInteractionEnabled = true
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(chooseImage))
         imageView.addGestureRecognizer(gestureRecognizer)
+        imageView.
     }
     
     @objc func chooseImage(){
